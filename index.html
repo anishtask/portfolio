@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anish Bala — Web Development · Email Automation · Digital Marketing</title>
+<meta name="description" content="I help agencies, coaches, consultants, and growing businesses build websites, automate their marketing, and generate more opportunities.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23E8A33D'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='28' font-weight='700' fill='%230B1116' text-anchor='middle'%3EAB%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Scroll signal spine (desktop) + progress bar (mobile). Purely visual/nav aid, built in main.js -->
+<div class="spine" id="spine" aria-hidden="true">
+  <div class="spine__track"></div>
+  <div class="spine__fill" id="spineFill"></div>
+  <div class="spine__nodes" id="spineNodes"></div>
+</div>
+<div class="topbar-progress" id="topbarProgress" aria-hidden="true"></div>
+
+<header class="header" id="header">
+  <div class="wrap header__row">
+    <a href="#hero" class="brand">
+      <span class="brand__mark">AB</span>
+      <span class="brand__name">Anish&nbsp;Bala</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#hero" class="nav__link" data-section="hero">Home</a>
+      <a href="#services" class="nav__link" data-section="services">Services</a>
+      <a href="#work" class="nav__link" data-section="work">Work</a>
+      <a href="#process" class="nav__link" data-section="process">Process</a>
+      <a href="#about" class="nav__link" data-section="about">About</a>
+      <a href="#contact" class="nav__link" data-section="contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--sm btn--primary header__cta">Start a Project</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- 1. HERO -->
+  <section class="hero" id="hero">
+    <div class="wrap hero__row">
+      <div class="hero__copy reveal">
+        <p class="eyebrow">Web Development <span class="dot">•</span> Email Automation <span class="dot">•</span> Digital Marketing</p>
+        <h1 class="hero__title">I Build Websites &amp; Marketing Systems That Help Businesses Grow.</h1>
+        <p class="hero__sub">I help agencies, coaches, consultants, and growing businesses build professional websites, automate their marketing, and generate more opportunities — without the hassle of managing multiple freelancers.</p>
+        <div class="btn-row">
+          <a href="#work" class="btn btn--primary">View My Work</a>
+          <a href="#contact" class="btn btn--ghost">Start a Project <span class="arrow">→</span></a>
+        </div>
+        <p class="trust-line"><span class="mono">5+ Years Experience</span> · Websites · Email Automation · Digital Marketing</p>
+      </div>
+
+      <div class="hero__media reveal" style="--delay:120ms">
+        <div class="media-frame" id="heroMedia" data-media-slot="hero"><!-- rendered by main.js from config.js --></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. THE PROBLEM -->
+  <section class="section problem" id="problem">
+    <div class="wrap problem__row">
+      <h2 class="section__title reveal">Your business shouldn't lose opportunities because your digital systems aren't working together.</h2>
+      <div class="problem__copy reveal" style="--delay:80ms">
+        <p>A great website is only the beginning.</p>
+        <p>If your website doesn't convert visitors, your follow-up emails aren't automated, or your advertising isn't reaching the right people, you're leaving potential revenue on the table.</p>
+        <p class="problem__lead">That's where I come in.</p>
+        <p>I combine web development, email marketing automation, and digital advertising to create practical systems that help turn visitors into leads and leads into customers.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SERVICES -->
+  <section class="section services" id="services">
+    <div class="wrap">
+      <p class="eyebrow reveal">What I Do</p>
+      <h2 class="section__title reveal">One Partner. Multiple Digital Solutions.</h2>
+      <p class="section__intro reveal" style="--delay:60ms">Instead of hiring different people for your website, email marketing, and digital advertising, I can help you bring the pieces together.</p>
+
+      <div class="service-grid">
+
+        <article class="service-card reveal" style="--delay:0ms">
+          <span class="service-card__num mono">01</span>
+          <h3>Website Design &amp; Development</h3>
+          <p>Professional websites designed to turn visitors into customers.</p>
+          <ul class="tag-list">
+            <li>WordPress &amp; Elementor</li><li>Shopify</li><li>Webflow</li><li>Landing pages</li>
+            <li>Business websites</li><li>Responsive design</li><li>Website redesign</li>
+            <li>Conversion-focused layouts</li><li>Forms &amp; integrations</li>
+          </ul>
+          <a href="#work" class="card-link">Explore Website Work <span class="arrow">→</span></a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:80ms">
+          <span class="service-card__num mono">02</span>
+          <h3>Email Marketing &amp; Automation</h3>
+          <p>Turn leads into customers with automated follow-up systems.</p>
+          <ul class="tag-list">
+            <li>Mailchimp</li><li>Klaviyo</li><li>Brevo</li><li>MailerLite</li>
+            <li>Email campaigns</li><li>Newsletter design</li><li>Welcome sequences</li>
+            <li>Lead nurturing</li><li>Automated follow-ups</li><li>Webinar/email reminders</li>
+          </ul>
+          <a href="#work" class="card-link">Explore Email Projects <span class="arrow">→</span></a>
+        </article>
+
+        <article class="service-card reveal" style="--delay:160ms">
+          <span class="service-card__num mono">03</span>
+          <h3>Digital Advertising</h3>
+          <p>Help your business reach the right people and generate more opportunities.</p>
+          <ul class="tag-list">
+            <li>Google Ads</li><li>Meta/Facebook Ads</li><li>Campaign setup</li>
+            <li>Conversion tracking</li><li>Meta Pixel</li><li>Landing page integration</li>
+            <li>Campaign optimization</li><li>Lead generation</li>
+          </ul>
+          <a href="#work" class="card-link">Explore Marketing Projects <span class="arrow">→</span></a>
+        </article>
+
+        <article class="service-card service-card--support reveal" style="--delay:240ms">
+          <span class="service-card__num mono">04</span>
+          <h3>Marketing Support</h3>
+          <p>Reliable execution for businesses that already have a strategy.</p>
+          <p class="service-card__ask">Need someone to actually implement the work? I can help with:</p>
+          <ul class="tag-list">
+            <li>Website updates</li><li>Marketing campaigns</li><li>CRM tasks</li><li>Landing pages</li>
+            <li>Email campaigns</li><li>Automation</li><li>Content uploads</li>
+            <li>Technical setup</li><li>Ongoing digital support</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. WHY WORK WITH ME -->
+  <section class="section why" id="why">
+    <div class="wrap why__row">
+      <div class="why__intro reveal">
+        <h2 class="section__title">You Don't Need Another Freelancer. You Need Someone Who Understands the Whole System.</h2>
+        <p>Most projects don't fail because someone can't build a website.</p>
+        <p>They fail because the website, marketing, tracking, and follow-up systems aren't connected.</p>
+        <p>I look at the complete customer journey — from the first click to the final conversion.</p>
+      </div>
+      <div class="why__points">
+        <div class="why-point reveal" style="--delay:0ms"><span class="mono why-point__num">01</span><h4>Business First</h4><p>I focus on what the project needs to achieve, not just how it looks.</p></div>
+        <div class="why-point reveal" style="--delay:60ms"><span class="mono why-point__num">02</span><h4>Practical Execution</h4><p>You give me the goal. I help turn it into a working digital solution.</p></div>
+        <div class="why-point reveal" style="--delay:120ms"><span class="mono why-point__num">03</span><h4>Multiple Skills</h4><p>Website, email automation, advertising, integrations and technical support in one place.</p></div>
+        <div class="why-point reveal" style="--delay:180ms"><span class="mono why-point__num">04</span><h4>Clear Communication</h4><p>No complicated technical language. You'll always know what I'm working on and why.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FEATURED WORK -->
+  <section class="section work" id="work">
+    <div class="wrap">
+      <p class="eyebrow reveal">Selected Work</p>
+      <h2 class="section__title reveal">A few examples of websites, marketing systems, and digital projects I've worked on.</h2>
+
+      <div class="work-grid" id="workGrid"><!-- rendered by main.js from config.js --></div>
+    </div>
+  </section>
+
+  <!-- 6. HOW I WORK -->
+  <section class="section process" id="process">
+    <div class="wrap">
+      <p class="eyebrow reveal">How I Work</p>
+      <h2 class="section__title reveal">Simple Process. No Guesswork.</h2>
+
+      <ol class="process-list">
+        <li class="process-step reveal" style="--delay:0ms"><span class="mono process-step__num">01</span><div><h4>Tell Me What You Need</h4><p>Tell me about your business, your current problem, and what you want to achieve.</p></div></li>
+        <li class="process-step reveal" style="--delay:70ms"><span class="mono process-step__num">02</span><div><h4>I Plan the Solution</h4><p>I'll review your requirements and recommend the most practical approach.</p></div></li>
+        <li class="process-step reveal" style="--delay:140ms"><span class="mono process-step__num">03</span><div><h4>I Build &amp; Implement</h4><p>I handle the design, development, setup, automation, or marketing execution.</p></div></li>
+        <li class="process-step reveal" style="--delay:210ms"><span class="mono process-step__num">04</span><div><h4>Review &amp; Refine</h4><p>You'll receive the work for review. I'll make the required adjustments.</p></div></li>
+        <li class="process-step reveal" style="--delay:280ms"><span class="mono process-step__num">05</span><div><h4>Launch &amp; Support</h4><p>Once everything is ready, we launch and I can continue supporting you if needed.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 7. ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about__row">
+      <div class="about__media reveal">
+        <div class="avatar-frame" id="aboutMedia" data-media-slot="about"></div>
+      </div>
+      <div class="about__copy reveal" style="--delay:80ms">
+        <p class="eyebrow">About Me</p>
+        <h2 class="section__title">Hi, I'm Anish.</h2>
+        <p>I'm a digital freelancer specializing in website development, email marketing automation, and digital marketing support.</p>
+        <p>Over the past 5+ years, I've worked across different digital projects, helping businesses and agencies execute the technical and creative work behind their online presence.</p>
+        <p class="about__approach mono">Understand the goal → Build the right solution → Make it work → Keep improving it.</p>
+        <p>I'm comfortable working independently, collaborating with agency teams, or becoming your behind-the-scenes digital support partner.</p>
+        <p>Whether you need a new website, a landing page, an automated email sequence, or help executing your marketing strategy, I'm here to make the process easier.</p>
+
+        <div class="skills">
+          <div class="skills__group"><h5 class="mono">Web</h5><p>WordPress · Elementor · Shopify · Webflow · Wix · Squarespace</p></div>
+          <div class="skills__group"><h5 class="mono">Marketing</h5><p>Google Ads · Meta Ads · Lead Generation · Conversion Tracking</p></div>
+          <div class="skills__group"><h5 class="mono">Email</h5><p>Mailchimp · Klaviyo · Brevo · MailerLite</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. TOOLS -->
+  <section class="section tools" id="tools">
+    <div class="wrap">
+      <p class="eyebrow reveal">Tools I Work With</p>
+      <div class="tools-grid reveal" style="--delay:60ms">
+        <span class="tool-badge">WordPress</span><span class="tool-badge">Elementor</span>
+        <span class="tool-badge">Shopify</span><span class="tool-badge">Webflow</span>
+        <span class="tool-badge">Wix</span><span class="tool-badge">Squarespace</span>
+        <span class="tool-badge">Mailchimp</span><span class="tool-badge">Klaviyo</span>
+        <span class="tool-badge">Brevo</span><span class="tool-badge">MailerLite</span>
+        <span class="tool-badge">Google Ads</span><span class="tool-badge">Meta Ads</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. VALUE GRID -->
+  <section class="section value" id="value">
+    <div class="wrap">
+      <h2 class="section__title reveal">What Can I Help You Build?</h2>
+      <div class="value-grid">
+        <div class="value-card reveal" style="--delay:0ms"><span class="value-card__icon">🌐</span><h4>A New Website</h4><p>Professional website built around your business goals.</p></div>
+        <div class="value-card reveal" style="--delay:50ms"><span class="value-card__icon">🚀</span><h4>A High-Converting Landing Page</h4><p>A focused page designed to turn traffic into leads.</p></div>
+        <div class="value-card reveal" style="--delay:100ms"><span class="value-card__icon">✉️</span><h4>An Automated Email System</h4><p>Follow up with leads automatically while you focus on your business.</p></div>
+        <div class="value-card reveal" style="--delay:150ms"><span class="value-card__icon">📈</span><h4>A Lead Generation Campaign</h4><p>Get your offer in front of the right audience.</p></div>
+        <div class="value-card reveal" style="--delay:200ms"><span class="value-card__icon">🔄</span><h4>A Marketing Automation System</h4><p>Connect forms, emails, CRM and follow-ups.</p></div>
+        <div class="value-card reveal" style="--delay:250ms"><span class="value-card__icon">🛠</span><h4>Ongoing Digital Support</h4><p>A reliable pair of hands for your ongoing digital work.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. TRUST STRIP -->
+  <section class="section trust" id="trust">
+    <div class="wrap trust__row reveal">
+      <h2>Let's Build Something That Works.</h2>
+      <p>Whether you're launching something new or improving what you already have, I'm ready to help.</p>
+    </div>
+  </section>
+
+  <!-- 11. FINAL CTA -->
+  <section class="cta" id="cta">
+    <div class="wrap cta__row reveal">
+      <h2>Have a Project in Mind?</h2>
+      <p>Tell me what you're trying to build, improve, or automate. I'll review your requirements and let you know how I can help.</p>
+      <a href="#contact" class="btn btn--dark">Start a Conversation <span class="arrow">→</span></a>
+      <p class="cta__tags mono">Websites · Email Automation · Digital Marketing · Ongoing Support</p>
+    </div>
+  </section>
+
+  <!-- 12. CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap contact__row">
+      <div class="contact__intro reveal">
+        <p class="eyebrow">Get In Touch</p>
+        <h2 class="section__title">Let's Talk About Your Project.</h2>
+        <p>Tell me a little about your project, your current situation, and what you'd like to achieve.</p>
+        <div class="contact__details" id="contactDetails"><!-- filled by main.js if email/phone set in config --></div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" style="--delay:80ms">
+        <div class="form-row">
+          <label>Name<input type="text" name="name" required></label>
+          <label>Email<input type="email" name="email" required></label>
+        </div>
+        <div class="form-row">
+          <label>Company / Website<input type="text" name="company"></label>
+          <label>What do you need help with?
+            <select name="need">
+              <option>Website Development</option>
+              <option>Landing Page</option>
+              <option>Email Marketing</option>
+              <option>Marketing Automation</option>
+              <option>Google Ads</option>
+              <option>Meta Ads</option>
+              <option>Ongoing Support</option>
+              <option>Something Else</option>
+            </select>
+          </label>
+        </div>
+        <label class="form-row form-row--full">Message
+          <textarea name="message" rows="5" placeholder="Tell me a little about your project, your current situation, and what you'd like to achieve." required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary">Send Project Details <span class="arrow">→</span></button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer__row">
+    <div class="brand">
+      <span class="brand__mark">AB</span>
+      <span class="brand__name">Anish&nbsp;Bala</span>
+    </div>
+    <p class="footer__tagline">Web Development · Email Automation · Digital Marketing</p>
+    <p class="footer__copy mono">© <span id="year"></span> Anish Bala. Built &amp; deployed on GitHub Pages.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
