@@ -30,8 +30,8 @@ const SITE_CONFIG = {
             heroMedia: { type: "youtube", id: "YOUR_YOUTUBE_VIDEO_ID" }
      --------------------------------------------------------------------- */
   heroMedia: {
-    type: "placeholder",
-    label: "Work Reel — Coming Soon"
+    type: "video",
+    src: "hero-video.mp4"
   },
 
   /* ---------------------------------------------------------------------
