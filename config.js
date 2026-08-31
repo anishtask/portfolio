@@ -22,7 +22,7 @@ const SITE_CONFIG = {
        2. Change this block to:
             heroMedia: {
               type: "video",
-              src: "hero-reel.mp4",
+              src: "hero-video.mp4",
               poster: "hero-poster.jpg" // optional preview image
             }
 
