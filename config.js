@@ -4,7 +4,7 @@
    rebuilds itself from this data automatically. No HTML/CSS editing needed.
    ========================================================================= */
 
-const SITE_CONFIG = {
+window.SITE_CONFIG = {
 
   /* ---------------------------------------------------------------------
      HERO MEDIA
