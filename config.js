@@ -40,8 +40,8 @@ window.SITE_CONFIG = {
        aboutMedia: { type: "image", src: "anish.jpg" }
      --------------------------------------------------------------------- */
   aboutMedia: {
-    type: "placeholder",
-    initials: "AB"
+    type: "image",
+    initials: "anish.jpg"
   },
 
   /* ---------------------------------------------------------------------
