@@ -194,7 +194,7 @@
       });
     }
   }
-
+const calendlyBlock = document.getElementById("calendlyBlock"); const calendlyEmbed = document.getElementById("calendlyEmbed"); const calendlyUrl = cfg.contact && cfg.contact.calendlyUrl; if(calendlyBlock && calendlyEmbed && calendlyUrl){ const widget = document.createElement("div"); widget.className = "calendly-inline-widget"; widget.setAttribute("data-url", `${calendlyUrl}?primary_color=e8a33d&text_color=eaf0f2&background_color=121a21`); widget.style.minWidth = "280px"; widget.style.height = "700px"; calendlyEmbed.appendChild(widget); const script = document.createElement("script"); script.src = "https://assets.calendly.com/assets/external/widget.js"; script.async = true; document.body.appendChild(script); } else if(calendlyBlock){ calendlyBlock.style.display = "none"; }
   /* ---------------------------------------------------------------------
      MOBILE NAV TOGGLE
      --------------------------------------------------------------------- */
