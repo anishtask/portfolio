@@ -64,7 +64,7 @@ window.SITE_CONFIG = {
       description: "A modern, responsive real estate website designed to present properties professionally and make it easier for potential buyers to explore listings and take action.",
       tags: ["WordPress", "UI Design", "Responsive Development", "Lead Generation"],
       cta: "View Project",
-      link: "#",
+      link: "https://anishtask.github.io/real-estate/",
       media: { type: "image", src: "real-estate-website.png" }
     },
     {
@@ -73,16 +73,16 @@ window.SITE_CONFIG = {
       description: "A professional coaching website focused on building trust, clearly communicating the offer, and guiding visitors toward taking the next step.",
       tags: ["Web Design", "Landing Pages", "Responsive Design", "Conversion Strategy"],
       cta: "View Project",
-      link: "#",
+      link: "https://anishtask.github.io/meridian-coaching/",
       media: { type: "image", src: "coach-website.png" }
     },
     {
       title: "Small Business Website",
       category: "Website Design & Development",
       description: "A clean business website designed to establish credibility online and make it easy for potential customers to understand the services and get in touch.",
-      tags: [],
+      tags: ["Web Design", "Landing Pages", "Responsive Design", "Conversion Strategy"],
       cta: "View Project",
-      link: "#",
+      link: "https://anishtask.github.io/interior-design/",
       media: { type: "image", src: "small-business-website.png" }
     },
     {
@@ -91,8 +91,8 @@ window.SITE_CONFIG = {
       description: "Designed email campaigns and automation workflows to help businesses communicate with leads and customers consistently.",
       tags: ["Mailchimp", "Brevo", "Klaviyo", "MailerLite"],
       cta: "View Email Projects",
-      link: "#",
-      media: { type: "placeholder", label: "Live View — Coming Soon" }
+      link: "https://anishtask.github.io/email-marketing-automation/",
+      media: { type: "image", src: "Email marketing.png" }
     },
     {
       title: "Digital Advertising Projects",
@@ -100,8 +100,8 @@ window.SITE_CONFIG = {
       description: "Campaign and marketing projects focused on generating traffic, leads, and measurable business results.",
       tags: ["Google Ads", "Meta Ads", "Meta Pixel", "Conversion Tracking"],
       cta: "View Marketing Projects",
-      link: "#",
-      media: { type: "placeholde", label: "Live View — Coming Soon" }
+      link: "https://anishtask.github.io/digital-advertising/",
+      media: { type: "image", src: "Digital marketing.png" }
     }
   ],
 
