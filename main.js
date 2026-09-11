@@ -123,7 +123,7 @@
         <h3>${project.title || ""}</h3>
         <p>${project.description || ""}</p>
         ${tagsHtml ? `<div class="project-card__tags">${tagsHtml}</div>` : ""}
-        <a href="${project.link || '#'}" class="project-card__link mono">${project.cta || "View Project"} <span class="arrow">→</span></a>
+        <a href="${project.link || '#'}" target="_blank" rel="noopener noreferrer" class="project-card__link mono">${project.cta || "View Project"} <span class="arrow">→</span></a>
       `;
 
       const link = body.querySelector(".project-card__link");
