@@ -63,9 +63,9 @@ window.SITE_CONFIG = {
       category: "Website Design & Development",
       description: "A modern, responsive real estate website designed to present properties professionally and make it easier for potential buyers to explore listings and take action.",
       tags: ["WordPress", "UI Design", "Responsive Development", "Lead Generation"],
-      cta: "View Case Study",
+      cta: "View Project",
       link: "#",
-      media: { type: "placeholder", label: "Live View — Coming Soon" }
+      media: { type: "image", src: "real-estate-website.png" }
     },
     {
       title: "Coaching Business Website",
@@ -74,7 +74,7 @@ window.SITE_CONFIG = {
       tags: ["Web Design", "Landing Pages", "Responsive Design", "Conversion Strategy"],
       cta: "View Project",
       link: "#",
-      media: { type: "placeholder", label: "Live View — Coming Soon" }
+      media: { type: "image", src: "coach-website.png" }
     },
     {
       title: "Small Business Website",
@@ -83,7 +83,7 @@ window.SITE_CONFIG = {
       tags: [],
       cta: "View Project",
       link: "#",
-      media: { type: "placeholder", label: "Live View — Coming Soon" }
+      media: { type: "image", src: "small-business-website.png" }
     },
     {
       title: "Email Marketing & Automation",
@@ -101,7 +101,7 @@ window.SITE_CONFIG = {
       tags: ["Google Ads", "Meta Ads", "Meta Pixel", "Conversion Tracking"],
       cta: "View Marketing Projects",
       link: "#",
-      media: { type: "placeholder", label: "Live View — Coming Soon" }
+      media: { type: "placeholde", label: "Live View — Coming Soon" }
     }
   ],
 
