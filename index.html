@@ -270,32 +270,7 @@
         <div class="contact__details" id="contactDetails"><!-- filled by main.js if email/phone set in config --></div>
       </div>
 
-      <form class="contact-form reveal" id="contactForm" style="--delay:80ms">
-        <div class="form-row">
-          <label>Name<input type="text" name="name" required></label>
-          <label>Email<input type="email" name="email" required></label>
-        </div>
-        <div class="form-row">
-          <label>Company / Website<input type="text" name="company"></label>
-          <label>What do you need help with?
-            <select name="need">
-              <option>Website Development</option>
-              <option>Landing Page</option>
-              <option>Email Marketing</option>
-              <option>Marketing Automation</option>
-              <option>Google Ads</option>
-              <option>Meta Ads</option>
-              <option>Ongoing Support</option>
-              <option>Something Else</option>
-            </select>
-          </label>
-        </div>
-        <label class="form-row form-row--full">Message
-          <textarea name="message" rows="5" placeholder="Tell me a little about your project, your current situation, and what you'd like to achieve." required></textarea>
-        </label>
-        <button type="submit" class="btn btn--primary">Send Project Details <span class="arrow">→</span></button>
-        <p class="form-note" id="formNote"></p>
-      </form>
+      <div class="contact-form reveal" id="calendlyBlock" style="--delay:80ms"> <div id="calendlyEmbed" class="calendly-frame"></div> </div> 
     </div>
   </section>
 
