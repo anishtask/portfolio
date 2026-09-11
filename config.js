@@ -116,10 +116,6 @@ window.SITE_CONFIG = {
      similar), paste the endpoint URL below, and the form will POST there
      instead — no code changes needed.
      --------------------------------------------------------------------- */
-  contact: {
-    email: "",
-    phone: "",
-    formEndpoint: ""
-  }
+  contact: { email: "", phone: "", formEndpoint: "", calendlyUrl: "https://calendly.com/anishtask/30min" }
 
 };
