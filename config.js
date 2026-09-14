@@ -31,7 +31,7 @@ window.SITE_CONFIG = {
      --------------------------------------------------------------------- */
   heroMedia: {
     type: "video",
-    src: "anish-portfolio-video-v2.mp4"
+    src: "anish-portfolio-video-v3.mp4"
   },
 
   /* ---------------------------------------------------------------------
